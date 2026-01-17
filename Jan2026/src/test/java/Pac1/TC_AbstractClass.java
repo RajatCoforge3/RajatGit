@@ -1,0 +1,28 @@
+package Pac1;
+abstract class shape{
+	abstract void draw(); 
+	
+	void greet() {
+		System.out.println("Hello");
+	}
+	
+}
+class rectangle extends shape {
+	void draw() {
+		System.out.println("Drawing the rectangle");
+	}
+	
+	
+}
+
+public class TC_AbstractClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		rectangle obj=new rectangle();
+		obj.draw();
+		
+
+	}
+
+}

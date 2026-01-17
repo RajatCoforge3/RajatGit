@@ -13,6 +13,10 @@ class Person {
     public String getFullName(String firstName, String lastName) {
         return firstName + " " + lastName;
     }
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
  
 public class Lab15 {

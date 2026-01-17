@@ -1,26 +1,22 @@
-package Pac1;
+package pac1;
 
 public class TC001_Variables {
-	private static double width=20;
-	private static double height=20;
-	private static double depth=20;
+	private static double width;
+	private static double height;
+	private static double depth;
 	private static int boxid;
 	
-	public static double volume ()
-	{
-		double temp=0;
-		try {
-		temp=width*height*depth;
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
+	public static  double volume() {
+		double temp;
+		temp = width * height * depth;
 		return temp;
-		
 	}
-	 
-	public static void main (String[] args) {
-		System.out.println("Volume is : "+ volume());
+	
+
+	public static void main(String[] args) {
+		
+		System.out.println(volume());
+		
 	}
 
 }
